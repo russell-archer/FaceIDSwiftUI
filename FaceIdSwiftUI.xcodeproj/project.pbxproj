@@ -11,6 +11,7 @@
 		68B667AA289AC90E00FE36E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B667A9289AC90E00FE36E5 /* ContentView.swift */; };
 		68B667AC289AC90E00FE36E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B667AB289AC90E00FE36E5 /* Assets.xcassets */; };
 		68B667AF289AC90E00FE36E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B667AE289AC90E00FE36E5 /* Preview Assets.xcassets */; };
+		68B667B6289ACF9800FE36E5 /* BioSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B667B5289ACF9800FE36E5 /* BioSecurity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		68B667A9289AC90E00FE36E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68B667AB289AC90E00FE36E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68B667AE289AC90E00FE36E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68B667B5289ACF9800FE36E5 /* BioSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioSecurity.swift; sourceTree = "<group>"; };
+		68FC974028A14C6900564C88 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		68B6679B289AC90E00FE36E5 = {
 			isa = PBXGroup;
 			children = (
+				68FC974028A14C6900564C88 /* README.md */,
 				68B667A6289AC90E00FE36E5 /* FaceIdSwiftUI */,
 				68B667A5289AC90E00FE36E5 /* Products */,
 			);
@@ -53,6 +57,7 @@
 			children = (
 				68B667A7289AC90E00FE36E5 /* FaceIdSwiftUIApp.swift */,
 				68B667A9289AC90E00FE36E5 /* ContentView.swift */,
+				68B667B5289ACF9800FE36E5 /* BioSecurity.swift */,
 				68B667AB289AC90E00FE36E5 /* Assets.xcassets */,
 				68B667AD289AC90E00FE36E5 /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B667B6289ACF9800FE36E5 /* BioSecurity.swift in Sources */,
 				68B667AA289AC90E00FE36E5 /* ContentView.swift in Sources */,
 				68B667A8289AC90E00FE36E5 /* FaceIdSwiftUIApp.swift in Sources */,
 			);
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = R6BE99W3FU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "This app uses Face ID to authenticate you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = R6BE99W3FU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "This app uses Face ID to authenticate you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
