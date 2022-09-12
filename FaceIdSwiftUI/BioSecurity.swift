@@ -48,7 +48,7 @@ class BioSecurity {
         
         // Is Biometric security supported?
         guard context.canEvaluatePolicy(LAPolicy.deviceOwnerAuthenticationWithBiometrics, error: nil) else {
-            print("Biometric security not supported")
+            print("Biometric security is not supported")
             result(.failure(.notSupported))
             return
         }
